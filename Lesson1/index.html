@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let word1='Hello';
+        let word2='owu';
+        let word3='com';
+        let word4='ua';
+        let number1=1;
+        let number2=10;
+        let number3=-999;
+        let number4=123;
+        let number5=3.14;
+        let number6=2.7;
+        let number7=16;
+        let status1 = true;
+        let status2 = false;
+
+        console.log('word1', 'word2', 'word3', 'word4', 'number1', 'number2', 'number3', 'number4', 'number5', 'number6',
+            'number7', 'status1', 'status2')
+
+        // alert(word1 + word2 + word3 + word4 + number1 + number2 + number3 + number4 + number5 + number6 + number7 +
+        // status1 + status2)
+
+
+        document.write(`<h2>${word1} ${word2} ${word3} ${word4} ${number1} ${number2} ${number3} ${number4} ${number5}
+         ${number6} ${number7} ${status1} ${status2}</h2>`)
+
+        word1='hi';
+        console.log(word1);
+        word2='okten';
+        console.log(word2);
+        word3='you'
+        console.log(word3);
+        word4='cool';
+        console.log(word4);
+        number1=11
+        console.log(number1);
+        number2=22;
+        console.log(number2);
+        number3=33;
+        console.log(number3);
+        number4=44;
+        console.log(number4);
+        number5=55;
+        console.log(number5);
+        number6=66;
+        console.log(number6);
+        number7=77;
+        console.log(number7);
+        status1=false;
+        console.log(status1);
+        status2=true;
+        console.log(status2)
+
+        document.write(`<h2>${word1} ${word2} ${word3} ${word4} ${number1} ${number2} ${number3} ${number4} ${number5}
+         ${number6} ${number7} ${status1} ${status2}</h2>`)
+
+        let firstName='Олександр';
+        let middleName='Володимирович';
+        let lastName='Єрмольчев';
+        let age=41;
+
+        let person=['Олександр', 'Володимирович', 'Єрмольчев'];
+        console.log(person);
+        document.write(firstName + ' ' + middleName + ' ' + lastName);
+
+        // prompt(firstName);
+        // prompt(middleName);
+        // prompt(age)
+        // prompt('Вітаю,' + ' ' + firstName + ' ' + middleName + '.' + ' ' + 'Тобі' + ' ' + age + ' ' + 'років.');
+
+
+        let a = 100;
+        let b = '100';
+        let c = true; 
+        console.log(typeof a);//number
+        console.log(typeof b);//string
+        console.log(typeof c);//boolean
+
+
+
+
+    let truth= 5 < 6; //true
+    console.log(truth);
+
+    let truth2= 5 > 6;//false
+    console.log(truth2);
+
+    let truth3= 5 >= 6; //false
+    console.log(truth3);
+
+    let truth4= 5 === 6; //false
+    console.log(truth4);
+
+    let truth5= 10 >= 10; //true
+    console.log(truth5);
+
+    let truth6= 10 <= 10; //true
+    console.log(truth6);
+
+    let truth7= 10 > 10; //false
+    console.log(truth7);
+
+    let truth8= 10 < 10; //false
+    console.log(truth8);
+
+    let truth9= 10 !== 10; //false
+    console.log(truth9);
+
+    let truth10= 123 > '123'; //false
+    console.log(truth10);
+
+    let truth11= 123 !== '123'; //true
+    console.log(truth11);
+
+
+
+
+
+        console.log(132 > 100 && 45 < 12 ); //false
+        console.log(34 > 33 && 23 < 90 ); //true
+        console.log(99 > 100 && 45 > 12 ); //false
+        console.log(132 > 100 || 45 < 12 ); //true
+        console.log(111 > 11 || 45 < 111 ); //true
+        console.log((111 > 11 || 45 < 111) && (132 > 100 || 45 < 12) ); //true
+        console.log((111 > 11 || 45 < 56) || (132 > 100 || 45 < 12) ); //true
+        console.log((132 > 100 && 45 < 12 ) && (132 > 100 || 45 < 12 ) ); //false
+        console.log((111 > 11 || 45 < 111) || (99 > 100 && 45 > 12 )); //true
+        console.log(!!'-1'); //true
+        console.log(!!-1); //true
+        console.log(!!'0'); //true
+        console.log(!!'null'); //true
+        console.log(!!'undefined'); //true
+        console.log(!!(3/'owu')); //false
+        console.log((111 > 11 || 45 < 111) ||  !!'0'); //true
+        console.log((!!111 == !!11 || 45 < 111) && (99 > 100 && 45 > 12 )); //false
+
+
+    </script>
+</body>
+</html>
