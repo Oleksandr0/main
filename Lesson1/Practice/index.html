@@ -32,12 +32,47 @@
   // Старайтесь використовувати різні оператори.
   //         Example: 88 = (16 / 2) * 11
 
-  let a1=68/2;//34
-  let a2=(36/2)-6; //12
-  let a3=(30+3)*2;  //66
-  let a4=9*9+9;  //90
-  let a5=100-40+27;  //87
+  let a1=1
+  let a2=2
+  let a3=3
+  let a4=5
+  let a5=10
+  function payment(a2,a4,a5) {
+      let result1=((a2+a4+a5)*2);
+      return result1;
+  }
+let b1=payment(a2,a4,a5);
+  console.log(b1)
 
+  function payment2(a1,a2,a3,a4) {
+      let result2=(a2*a3+a4+a1);
+      return result2;
+  }
+  let b2=payment2(a1,a2,a3,a4);
+  console.log(b2)
+
+
+  function payment3(a1,a4,a5) {
+      let result3=((a1+a4)*(a1+a5));
+      return result3;
+  }
+  let b3=payment3(a1,a4,a5);
+  console.log(b3);
+
+
+  function payment4(a2,a4,a5) {
+      let result4=(a4*a5*a2-a5);
+      return result4;
+  }
+  let b4=payment4(a2,a4,a5);
+  console.log(b4);
+
+  function payment5(a1,a2,a3,a4,a5) {
+      let result5=((a1+a3)*a2*a5+(a4+a2));
+      return result5;
+  }
+  let b5=payment5(a1,a2,a3,a4,a5);
+  console.log(b5);
 
 
   // 3.  Створіть змінні a6, a7, a8, a9, a10. Запишіть в них результати виразів:
@@ -87,31 +122,66 @@
   //
   let n=3;
   let m=4;
-  console.log(Math.sqrt(Math.pow(3,2) + Math.pow(4,2));
+  console.log(Math.sqrt(Math.pow(3,2) + Math.pow(4,2)));
 
 
   //
   //
   // 8. Вывести в окно браузера при помощи метода alert() следующие данные: Ваше ФИО, возраст, хобби (каждой на новой строки спомощью \n).
   //
+  //  alert('Єрмольчев Олександр Володимирович\n 41\n swimming');
+
+
   // 9. Создать 4 переменные с использованием ключевого слова let с именами str1, str2, str3, concatenation.
   //         Переменной str1 присвоить фразу ‘Кто ‘, str2 – ‘ты ‘, str3 – ‘такой?’
   // Локальной переменной concatenation присвоить результат конкатенации 3-х строк: str1, str2, str3.
   //         Вывести в документ содержимое переменной concatenation спомощью document.write
   //
+  let str1='Кто'
+  let str2='ты'
+  let str3='такой?'
+  let concatenation=(str1 + ' ' + str2 + ' ' + str3);
+
+  document.write(concatenation)
+
+
   // 10. Подумайте Какие значения выведет в окно браузера следующий фрагмент кода?  и почему?
-  //         let str = "20";
-  // let a = 5;
-  // document.write(str + a + "<br/>");
-  // document.write(str - a + "<br/>");
-  // document.write(str * "2" + "<br/>");
-  // document.write(str / 2 + "<br/>");
+  let strong = "20";
+  let a = 5;
+  document.write(strong + a + "<br/>"); //205<br/>
+  console.log(strong + a + "<br/>");
+  document.write(strong - a + "<br/>");//15<br/>
+  console.log(strong - a + "<br/>");
+  document.write(str * "2" + "<br/>"); //NaN<br/>
+  console.log(str * "2" + "<br/>");
+  document.write(str / 2 + "<br/>"); //NaN<br/>
+  console.log(str / 2 + "<br/>");
   //
   //
   //
   // 13. С помощью окна ввода, вызываемого методом prompt, сделать сложение двух чисел, а вывод результата при помощи метода alert
+
+
+    // if (prompt('2+2')) {
+    //     alert(4)
+    // } else {
+    //     alert('Вы нажали на "Отмена"');
+    // }
+    //
+    //
+
+
   // 14. С помощью окна ввода, вызываемого методом prompt, пользователь последовательно выводит имя, фамилию и возраст, а вам не обходимо вывести строку такого вида
   // Доброго вечера Иван Иванов, мои поздравления что вам 32 , а вывод результата при помощи метода alert
+
+  // let person;
+  // let age;
+  //
+  // if  (person=(prompt('Введите ваше имя, фамилию и возраст')) , (age=(prompt('возраст')))) {
+  //     alert('Доброго вечера ' + person +',' + ' мои поздравления что вам ' + age)
+  // }
+
+
   //
   //
   //
@@ -124,6 +194,17 @@
   //
   // 1. Три різних числа вводяться через prompt().
   //         За допомоги if else вивести іх в порядку зростання. (відсортувати по зростанню)
+
+  let x=11;
+  let y=22;
+  let z=33;
+
+ if (num=prompt(x<y && x>y)){
+
+
+ }
+
+
   //
   // 2.
   // Все параматры получаем с клавиатуры!!!!
