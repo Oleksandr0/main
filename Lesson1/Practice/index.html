@@ -195,14 +195,13 @@ let b1=payment(a2,a4,a5);
   // 1. Три різних числа вводяться через prompt().
   //         За допомоги if else вивести іх в порядку зростання. (відсортувати по зростанню)
 
-  let x=11;
-  let y=22;
-  let z=33;
-
- if (num=prompt(x<y && x>y)){
-
-
- }
+  // let num1 = +prompt('number 1');
+  // let num2 = +prompt('number 2');
+  // let num3 = +prompt('number 3');
+  //
+  // if (num1 > num2 && num1 > num3 && num2 > num3) {
+  //     console.log(num3, num2, num1);
+  // }
 
 
   //
@@ -213,6 +212,26 @@ let b1=payment(a2,a4,a5);
   //         Если светофор желтый - вывести "подожди".
   //         Если светофор красный - вывести "стой".
   //         Если светофор в аварийном режиме вывести "делай что хочешь"!
+
+ //  let color1=confirm('Если сфетофор зеленый');
+ //  if (color1) {
+ //      alert('иди')
+ //  }
+ //
+ //  let color2=confirm('Если светофор желтый');
+ //  if (color2) {
+ //      alert('подожди') }
+ //
+ //  let color3=confirm('Если светофор красный');
+ //  if (color3) {
+ //      alert('стой')
+ //  }
+ //
+ //  let color4=confirm('Если светофор в аварийном режиме');
+ // if (color4) {
+ //     alert('делай что хочешь')
+ // }
+
   //
   //         3
   // Все параметры получаем с клавиатуры!!!!(prompt , confirm)
@@ -226,7 +245,46 @@ let b1=payment(a2,a4,a5);
   //         Если светофор красный - и машины есть вывести "стой и жди".
   //         Если светофор в аварийном режиме вывести "делай что хочешь"!
 
+  let color1=prompt('Если сфетофор зеленый', 'да');
+  let isRoadClear1=confirm('машин нет')
+  if (color1 + isRoadClear1){
+      alert('иди')
+  }
 
+  let color2=prompt('Если сфетофор зеленый', 'да');
+  let isRoadClear2=confirm('машины есть')
+  if (color2 + isRoadClear2){
+      alert('подожди пока нарушители пройдут')
+  }
+
+  let color3=prompt('Если сфетофор желтый', 'да');
+  let isRoadClear3=confirm('машины есть')
+  if (color1 + isRoadClear3){
+      alert('жди')
+  }
+
+  let color4=prompt('Если сфетофор желтый', 'да');
+  let isRoadClear4=confirm('машин нет')
+  if (color1 + isRoadClear4){
+      alert('все равно жди')
+  }
+
+  let color5=prompt('Если сфетофор красный', 'да');
+  let isRoadClear5=confirm('машин нет')
+  if (color1 + isRoadClear5){
+      alert('стой все равно')
+  }
+
+  let color6=prompt('Если сфетофор красный', 'да');
+  let isRoadClear6=confirm('машины есть')
+  if (color1 + isRoadClear6){
+      alert('стой и жди')
+  }
+
+  let color7=confirm('Если светофор в аварийном режиме');
+    if (color7){
+      alert('делай что хочешь')
+  }
 
 
 </script>
