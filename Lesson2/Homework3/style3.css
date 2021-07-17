@@ -1,0 +1,19 @@
+.user-block {
+    display: flex;
+    position: relative;
+    margin: 30px;
+    column-gap: 40px;
+}
+.user-block h3 {
+    padding-top: 5px;
+}
+
+.address-block {
+    display: flex;
+    position: absolute;
+    padding-top: 50px;
+    column-gap: 30px;
+}
+
+
+
