@@ -27,10 +27,17 @@
         // -- Створити пустий масив. Наповнити його будь-якими значеннями звертаючись до конкретного індексу. Вивести в консоль
         //
 
-        // let names1=['kolya', 'petya', 'vasya', 'olya', 'max'];
-        // console.log(names[0]);
-        // console.log(names[4]);
-        // console.log(names[1]);
+        // let user=[];
+        // user[0] = true;
+        // user[1] = 'vova';
+        // user[2] = 34;
+        // user[3] = 'olya';
+        // user[4] = false;
+        // user[5] = 'vasya';
+        // console.log(user[2]);
+
+
+
 
         // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
 
@@ -64,29 +71,29 @@
 
 
         // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
-        let users2 = [
-            {name: 'vasya', age: 31, status: false},
-            {name: 'petya', age: 30, status: true},
-            {name: 'kolya', age: 29, status: true},
-            {name: 'olya', age: 28, status: false},
-            {name: 'max', age: 30, status: true},
-            {name: 'anya', age: 31, status: false},
-            {name: 'oleg', age: 28, status: false},
-            {name: 'andrey', age: 29, status: true},
-            {name: 'masha', age: 30, status: true},
-            {name: 'olya', age: 31, status: false},
-            {name: 'vasya', age: 31, status: false},
-            {name: 'petya', age: 30, status: true},
-            {name: 'kolya', age: 29, status: true},
-            {name: 'olya', age: 28, status: false},
-            {name: 'max', age: 30, status: true},
-            {name: 'anya', age: 31, status: false},
-            {name: 'oleg', age: 28, status: false},
-            {name: 'andrey', age: 29, status: true},
-            {name: 'masha', age: 30, status: true},
-            {name: 'olya', age: 31, status: false}
-
-        ];
+        // let users2 = [
+        //     {name: 'vasya', age: 31, status: false},
+        //     {name: 'petya', age: 30, status: true},
+        //     {name: 'kolya', age: 29, status: true},
+        //     {name: 'olya', age: 28, status: false},
+        //     {name: 'max', age: 30, status: true},
+        //     {name: 'anya', age: 31, status: false},
+        //     {name: 'oleg', age: 28, status: false},
+        //     {name: 'andrey', age: 29, status: true},
+        //     {name: 'masha', age: 30, status: true},
+        //     {name: 'olya', age: 31, status: false},
+        //     {name: 'vasya', age: 31, status: false},
+        //     {name: 'petya', age: 30, status: true},
+        //     {name: 'kolya', age: 29, status: true},
+        //     {name: 'olya', age: 28, status: false},
+        //     {name: 'max', age: 30, status: true},
+        //     {name: 'anya', age: 31, status: false},
+        //     {name: 'oleg', age: 28, status: false},
+        //     {name: 'andrey', age: 29, status: true},
+        //     {name: 'masha', age: 30, status: true},
+        //     {name: 'olya', age: 31, status: false}
+        //
+        // ];
 
         // let i=0
         // while (i < users2.length) {
@@ -125,43 +132,155 @@
 
         // - Створити масив з 10 елементів будь-якого типу. Вивести в консоль всі його елементи в циклі.
 
-        let users=['vova', 35,'street',23, '15','user','cool',143,'12','sova']
-        for (let i = 0; i < users.length; i++) {
-            const user = users[i];
+        // let users=['vova', 35,'street',23, '15','user','cool',143,'12','sova']
 
-            console.log(users)
-        }
+        //
+        // for (let i = 0; i < users.length; i++) {
+        //     const user = users[i];
+        //
+        //     console.log(users)
+        // }
         // - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки булеві елементи
-        // let users=[{'vova', 35,'street',23, '15','user','cool',143,'12', status:true}];
+//
+//
+//         let users=['vova', 35,true,23, '15','user','cool',143,'12',false];
+//         for (let i = 0; i < users.length; i++) {
+//             const user = users[i];
+//             if (typeof users[i] === 'boolean'){
+//                 console.log(users[i])
+//             }
+//         }
 
 
 
         // - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки числові елементи
+        // let users=['vova', 35,true,23, '15','user','cool',143,'12',false];
+        // for (let i = 0; i < users.length; i++) {
+        //     const user = users[i];
+        //     if (typeof users[i] === 'number'){
+        //         console.log(users[i])
+        //     }
+        // }
+
+
+
+
         // - Створити масив з 10 елементів числового, стрічкового і булевого типу. За допомогою if та typeof вивести тільки рядкові елементи
         //
+
+        // let users=['vova', 35,true,23, '15','user','cool',143,'12',false];
+        // for (let i = 0; i < users.length; i++) {
+        //     const user = users[i];
+        //     if (typeof users[i] === 'string'){
+        //         console.log(users[i])
+        //     }
+        // }
+
         // - Створити порожній масив. Наповнити його 10 елементами (різними за типами) через звернення до конкретних індексів. Вивести в консоль всі його елементи в циклі.
-        // - Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
-        // - Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
-        // - Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write
-        // - Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
-        // - Створити цикл for на 100 ітерацій. Вивести тільки непарні кроки. через console.log + document.write
+
+        // let massive=[];
+        // massive[0]='ira';
+        // massive[1]=134;
+        // massive[2]=true;
+        // massive[3]='vova';
+        // massive[4]=45;
+        // massive[5]=false;
+        // massive[6]='vika';
+        // massive[7]=34;
+        // massive[8]=true;
+        // massive[9]='olya';
+        // for (let i = 0; i < massive.length; i++) {
+        //     const massiveElement = massive[i];
+        //     console.log(massive[i])
         //
+        // }
+
+        // - Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+        // for (let i = 0; i < 10; i++) {
+        //     console.log(`step:`, i);
+        //     document.write(`step:, ${i} <br>`);
+        // }
+
+        // - Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+        // for (let i = 0; i < 100; i++) {
+        //     console.log(`step:`, i);
+        //     document.write(`step:, ${i} <br>`);
+        // }
+        // - Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write
+        // let user=0
+        // for (let i = 0; i < 100; i++) {
+        //     console.log(`step:`, user);
+        //     document.write(`step: ${user} <br>`);
+        //     user+=2;
+        // }
+
+
+        // - Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
+
+        // for (let i = 0; i < 100; i++) {
+        //    if (i%2===0) {
+        //        console.log('step:', i);
+        //        document.write(`step:, ${i} <br>`);
+        //    }
+        //
+        // }
+        //
+
+        // - Створити цикл for на 100 ітерацій. Вивести тільки непарні кроки. через console.log + document.write
+
+        // for (let i = 0; i < 100; i++) {
+        //     if (i%2===1) {
+        //         console.log('step:', i);
+        //         document.write(`step:, ${i} <br>`);
+        //     }
+        //
+        // }
+
+
         //
         // - Дано 2 масиви з рівною кількістю об'єктів.
         // Масиви:
-        //     let usersWithId = [
-        //         {id: 1, name: 'vasya', age: 31, status: false},
-        //         {id: 2, name: 'petya', age: 30, status: true},
-        //         {id: 3, name: 'kolya', age: 29, status: true},
-        //         {id: 4, name: 'olya', age: 28, status: false}
-        //     ];
-        //
-        // let citiesWithId = [
-        //     {user_id: 3, country: 'USA', city: 'Portland'},
-        //     {user_id: 1, country: 'Ukraine', city: 'Ternopil'},
-        //     {user_id: 2, country: 'Poland', city: 'Krakow'},
-        //     {user_id: 4, country: 'USA', city: 'Miami'}
-        // ];
+            let usersWithId = [
+                {id: 1, name: 'vasya', age: 31, status: false},
+                {id: 2, name: 'petya', age: 30, status: true},
+                {id: 3, name: 'kolya', age: 29, status: true},
+                {id: 4, name: 'olya', age: 28, status: false}
+            ];
+
+
+        let citiesWithId = [
+            {user_id: 3, country: 'USA', city: 'Portland'},
+            {user_id: 1, country: 'Ukraine', city: 'Ternopil'},
+            {user_id: 2, country: 'Poland', city: 'Krakow'},
+            {user_id: 4, country: 'USA', city: 'Miami'}
+        ];
+
+
+        let usersWithCities =[];
+        for (let i = 0; i < usersWithId.length; i++) {
+            const user = usersWithId[i];
+            for (let j = 0; j < citiesWithId.length; j++) {
+                const city = citiesWithId[j];
+               if (user.id === city.user_id )
+                   usersWithCities=
+                       {
+                           id: user.id,
+                           name: user.name,
+                           age: user.age,
+                           status: user.status,
+                           address: {
+                               user_id: city.user_id,
+                               country: city.country,
+                               city: city.city
+                           }
+                       }
+                    }
+                  }
+
+       console.log(usersWithCities)
+        console.log(usersWithCities.address);
+
+
         //
         // З'єднати в один об'єкт користувача та місто з відповідними "id" та "user_id" .
         //     Записати цей об'єкт в новий масив
