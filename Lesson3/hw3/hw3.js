@@ -74,10 +74,8 @@
 
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
 
-// let data=[12, 13, 'vova', 'olya', true, false];
-// let array=[];
-// for (const dataElement of data) {
-//     array.push(dataElement)
-// }
-//
-// console.log(array)
+// let dataLog = () => {
+//     let data = [4, 5, 6,'vova','olya',false,true];
+//     console.log(data);
+// };
+// dataLog();
