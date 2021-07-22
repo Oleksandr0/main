@@ -101,21 +101,60 @@
 // - створити функцію яка заповнює масив рандомними числами
 // (цей код генерує рандомні числа в діапазоні від 0 до 100 - Math.round(Math.random()*100)) та виводить його.
 //     Для виведення використати попередню функцію.
-
-// let funRandom = (value, num) => {
+//
+// let funRandom = () => {
 //     let array = [];
-//     for (let i = 0; i < value; i++){
-//         array.push(Math.floor(Math.random()*num));
+//     for (let i = 0; i < 100; i++){
+//         array.push(Math.floor(Math.random()*100));
 //     }
 // return array
 // };
-// funRandom(0, 100);
+//
+// console.log(funRandom())
+
 
 
 // - Створити функцію яка приймає масив будь яких объектів, та повертає масив ключів всіх обєктів
 // EXAMPLE:
 //     [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ name, age, model ]
+
+
+// let array=[{name: 'Dima', age: 13}, {model: 'Camry'}];
+// let data=(arr)=> {
+//     let res = [];
+//     for (const arrayElement of arr) {
+//         if (typeof arrayElement==="object") {
+//             for (const key in arrayElement) {
+//                 res.push(key);
 //
+//             }
+//
+//         }
+//     }
+// return res
+// }
+// console.log(data(array));
+
+//
+
 //     - Створити функцію яка приймає масив будь яких объектів, та повертає масив значень всіх обєктів
 // EXAMPLE:
 //     [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ Dima, 13, Camry ]
+
+
+// let array=[{name: 'Dima', age: 13}, {model: 'Camry'}];
+// let data=(arr)=> {
+//     let res = [];
+//     for (const arrayElement of arr) {
+//         if (typeof arrayElement==="object") {
+//             for (const value in arrayElement) {
+//                 res.push(arrayElement[value]);
+//
+//             }
+//
+//         }
+//     }
+//     return res
+// }
+// console.log(data(array));
+
