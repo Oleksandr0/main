@@ -29,10 +29,12 @@ console.log(rules.classList)
 let fcRules = document.getElementsByClassName('fc_rules');
 console.log(fcRules);
 for (const fcRule of fcRules) {
-       fcRule.onclick = function (){
+    fcRule.addEventListener('click',(evt => {
         console.log(fcRule.textContent)
-           console.log('sddasdasd')
-    }
+    }))
+    fcRule.addEventListener('click',(evt => {
+        console.log('sdfgdfgsdfg')
+    }))
 }
 
 

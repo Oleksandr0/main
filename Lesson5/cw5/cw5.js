@@ -20,13 +20,10 @@ for (const ulEl of ulEls) {
 let linkList=document.getElementsByClassName('linkList');
 for (const linkListElement of linkList) {
     linkListElement.style.width = '50%';
-
 }
 
 
 // d) отримує текст який зберігається в елементі з класом listElement2
-
-
 
 // let listElement2 =  document.getElementsByClassName('listElement2');
 // for (const listElement2Element of listElement2) {
@@ -53,17 +50,9 @@ for (const liElement of liElements) {
 // g) отримує всі елементи 'a' та у випадку, якщо текстовий контен елементу дорівнює link3, змінює йому розмір тексту на 40 пікселів
 
 // let aElements = document.getElementsByTagName('a');
-// let listElement3 =  document.getElementsByClassName('listElement3');
-//
 // for (const aElement of aElements) {
-//     console.log(aElement.textContent)
-//
-//     for (const listElement3Element of listElement3) {
-//         console.log( listElement3Element.textContent)
-//
-//     if (aElement.textContent == listElement3Element){
-//         listElement3Element.textContent.fontsize('40px')
-//     }
+//     if (aElement.textContent === 'link3'){
+//         aElement.style.fontSize = '40px'
 //     }
 // };
 
@@ -72,8 +61,7 @@ for (const liElement of liElements) {
 
 // let aElements = document.getElementsByTagName('a');
 // for (const aElement of aElements) {
-//     aElement.classList.add('element_xxx')
-//
+//     aElement.classList.add(`element_${aElement.innerText}`)
 //     console.log(aElement)
 // };
 
@@ -86,12 +74,14 @@ for (const liElement of liElements) {
 // }
 
 // j) отримує всі елементи 'sub-header' та змінює колір тексту у видаку якщо текст елемнту = content 2 segment . Колір отримати з prompt()
-//
+
 // let subHeader = document.getElementsByClassName('sub-header');
 // let color=prompt('colors')
 // for (const subHeaderElement of subHeader) {
-//     subHeaderElement.style.color = `${color}`
-// }
+//     if (subHeaderElement.textContent === 'content 2 segment'){
+//         subHeaderElement.style.color = `${color}`
+//     }
+// };
 
 
 // k) отримує елемент з класом content_1 та заміняє  в ньому тест на довільний. Текст отримати з prompt()
@@ -115,3 +105,6 @@ for (const liElement of liElements) {
 // for (const text2Element of text2) {
 //     text2Element.innerText= 'June-2021'
 // }
+
+
+
