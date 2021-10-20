@@ -1,0 +1,30 @@
+.product-card {
+    display: flex;
+    margin: 30px;
+
+}
+
+.product-image {
+height: 250px;
+    margin: 30px;
+}
+
+.product-title  {
+    text-transform: uppercase;
+    margin-top: 115px;
+}
+
+
+.product-card2 {
+    display: flex;
+}
+
+.product-image2 {
+    height: 250px;
+    margin: 30px;
+}
+
+.product-title2  {
+    text-transform: uppercase;
+    margin-left: 37px;
+}

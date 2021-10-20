@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+  // 1. Оголосіть змінні str, num, flag и txt зі значеннями «Привіт», 123, true, «true».
+  // За допомогою typeof переконайтесь, що значення змінних належать типам: string, number и  boolean.
+  //
+  let str='Привіт'; //string
+
+  let num=123;  //number
+
+  let flag=true;  //boolean
+
+  let txt='true' //string
+
+  console.log(typeof str)
+  console.log(typeof num)
+  console.log(typeof flag)
+  console.log(typeof txt)
+
+  // 2. Оголосіть змінні a1, a2, a3, a4, a5. За домогою 3х математичних оператцій отримайте числа:
+  //         34,
+  //                 12,
+  //                 66,
+  //                 90,
+  //                 87
+  // Старайтесь використовувати різні оператори.
+  //         Example: 88 = (16 / 2) * 11
+
+  let a1=1
+  let a2=2
+  let a3=3
+  let a4=5
+  let a5=10
+
+  console.log((a2+a4+a5)*2); //34
+  console.log(a2*a3+a4+a1); //12
+  console.log((a1+a4)*(a1+a5)); //66
+  console.log(a4*a5*a2-a5); //90
+  console.log((a1+a3)*a2*a5+(a4+a2)); //87
+
+
+
+//   function payment(a2,a4,a5) {
+//       let result1=((a2+a4+a5)*2);
+//       return result1;
+//   }
+// let b1=payment(a2,a4,a5);
+//   console.log(b1)
+//
+//   function payment2(a1,a2,a3,a4) {
+//       let result2=(a2*a3+a4+a1);
+//       return result2;
+
+//   }
+
+//   let b2=payment2(a1,a2,a3,a4);
+//   console.log(b2)
+//
+//
+//   function payment3(a1,a4,a5) {
+//       let result3=((a1+a4)*(a1+a5));
+//       return result3;
+//   }
+//   let b3=payment3(a1,a4,a5);
+//   console.log(b3);
+//
+//
+//   function payment4(a2,a4,a5) {
+//       let result4=(a4*a5*a2-a5);
+//       return result4;
+//   }
+//   let b4=payment4(a2,a4,a5);
+//   console.log(b4);
+//
+//   function payment5(a1,a2,a3,a4,a5) {
+//       let result5=((a1+a3)*a2*a5+(a4+a2));
+//       return result5;
+//   }
+//   let b5=payment5(a1,a2,a3,a4,a5);
+//   console.log(b5);
+
+
+  // 3.  Створіть змінні a6, a7, a8, a9, a10. Запишіть в них результати виразів:
+  //         5 % 3,
+  //         3 % 5,
+  //         5 + '3',
+  //         '5' - 3,
+  //         75 + 'кг'
+  //
+   let a6=5%3 //=2
+  console.log(a6)
+
+  let a7=3%5; //=3
+  console.log(a7)
+
+  let a8=5+'3';  //53
+  console.log(a8)
+
+  let a9='5'-3;  //=2
+  console.log(a9)
+
+  let a10=75+'кг'; //=75kг
+  console.log(a10)
+  // 4. Напишіть код, який вираховує площу прямокутника висотою 23см. (змінна height) та шириною 10см (змінна width).
+  // Значееня площі зберігати в змінній s.
+  //
+  let height=23;
+  let width=10;
+  let s=height*width; // =230
+  console.log(s)
+
+
+
+  // 5.  Напиши код, который находит объем цилиндра высотой 10м (переменная heightC) и диаметром основания 4м (dC),
+  //         результат поместите в переменную v.
+  //
+  let heightC=10;
+  let dC=4;
+  let v=3.14*heightC*dC; // 125.60000000000001
+  console.log(v)
+
+
+
+
+  // 6. У прямоугольного треугольника две стороны n (со значением 3) и m (со значением 4).
+  // Найдите гипотенузу k по теореме Пифагора (нужно использовать функцию Math.pow(число, степень) или оператор возведения в степень ** ).
+  //
+  let n=3;
+  let m=4;
+  console.log(Math.sqrt(Math.pow(3,2) + Math.pow(4,2)));
+
+
+  //
+  //
+  // 8. Вывести в окно браузера при помощи метода alert() следующие данные: Ваше ФИО, возраст, хобби (каждой на новой строки спомощью \n).
+  //
+  //  alert('Єрмольчев Олександр Володимирович\n 41\n swimming');
+
+
+  // 9. Создать 4 переменные с использованием ключевого слова let с именами str1, str2, str3, concatenation.
+  //         Переменной str1 присвоить фразу ‘Кто ‘, str2 – ‘ты ‘, str3 – ‘такой?’
+  // Локальной переменной concatenation присвоить результат конкатенации 3-х строк: str1, str2, str3.
+  //         Вывести в документ содержимое переменной concatenation спомощью document.write
+  //
+  let str1='Кто'
+  let str2='ты'
+  let str3='такой?'
+  let concatenation=(str1 + ' ' + str2 + ' ' + str3);
+
+  document.write(concatenation)
+
+
+  // 10. Подумайте Какие значения выведет в окно браузера следующий фрагмент кода?  и почему?
+  let strong = "20";
+  let a = 5;
+  document.write(strong + a + "<br/>"); //205<br/>
+  console.log(strong + a + "<br/>");
+  document.write(strong - a + "<br/>");//15<br/>
+  console.log(strong - a + "<br/>");
+  document.write(str * "2" + "<br/>"); //NaN<br/>
+  console.log(str * "2" + "<br/>");
+  document.write(str / 2 + "<br/>"); //NaN<br/>
+  console.log(str / 2 + "<br/>");
+  //
+  //
+  //
+  // 13. С помощью окна ввода, вызываемого методом prompt, сделать сложение двух чисел, а вывод результата при помощи метода alert
+
+
+    // if (prompt('2+2')) {
+    //     alert(4)
+    // } else {
+    //     alert('Вы нажали на "Отмена"');
+    // }
+    //
+    //
+
+
+  // 14. С помощью окна ввода, вызываемого методом prompt, пользователь последовательно выводит имя, фамилию и возраст, а вам не обходимо вывести строку такого вида
+  // Доброго вечера Иван Иванов, мои поздравления что вам 32 , а вывод результата при помощи метода alert
+
+  // let person;
+  // let age;
+  //
+  // if  (person=(prompt('Введите ваше имя, фамилию и возраст')) , (age=(prompt('возраст')))) {
+  //     alert('Доброго вечера ' + person +',' + ' мои поздравления что вам ' + age)
+  // }
+
+
+  //
+  //
+  //
+  // =====================
+  // ======ДОП============
+  // =====================
+  //
+  //
+  //
+  //
+  // 1. Три різних числа вводяться через prompt().
+  //         За допомоги if else вивести іх в порядку зростання. (відсортувати по зростанню)
+
+  // let num1 = +prompt('number 1');
+  // let num2 = +prompt('number 2');
+  // let num3 = +prompt('number 3');
+  //
+  // if (num1 > num2 && num1 > num3 && num2 > num3) {
+  //     console.log(num3, num2, num1);
+  // }
+
+
+  //
+  // 2.
+  // Все параматры получаем с клавиатуры!!!!
+  //         Имитируем поведение пешехода на перекстке.
+  //         Если светофор зеленый - вывести "иди".
+  //         Если светофор желтый - вывести "подожди".
+  //         Если светофор красный - вывести "стой".
+  //         Если светофор в аварийном режиме вывести "делай что хочешь"!
+
+ //  let color1=confirm('Если сфетофор зеленый');
+ //  if (color1) {
+ //      alert('иди')
+ //  }
+ //
+ //  let color2=confirm('Если светофор желтый');
+ //  if (color2) {
+ //      alert('подожди') }
+ //
+ //  let color3=confirm('Если светофор красный');
+ //  if (color3) {
+ //      alert('стой')
+ //  }
+ //
+ //  let color4=confirm('Если светофор в аварийном режиме');
+ // if (color4) {
+ //     alert('делай что хочешь')
+ // }
+
+  //
+  //         3
+  // Все параметры получаем с клавиатуры!!!!(prompt , confirm)
+  // Создать переменную isRoadClear которая характеризирует наличие на дороге машин.
+  //         Улучшаем предыдущее задание.
+  //         Если светофор зеленый и машин нет - вывести "иди".
+  //         Если светофор зеленый и машины есть  - вывести подожди пока нарушители проедут".
+  // Если светофор желтый и машины есть - вывести "жди".
+  //         Если светофор желтый и машин нет - вывести "все рано жди".
+  //         Если светофор красный и машин нет- вывести "стой все рано".
+  //         Если светофор красный - и машины есть вывести "стой и жди".
+  //         Если светофор в аварийном режиме вывести "делай что хочешь"!
+
+//   let color1=prompt('Если сфетофор зеленый', 'да');
+//   let isRoadClear1=confirm('машин нет')
+//   if (color1 + isRoadClear1){
+//       alert('иди')
+//   }
+
+//   let color2=prompt('Если сфетофор зеленый', 'да');
+//   let isRoadClear2=confirm('машины есть')
+//   if (color2 + isRoadClear2){
+//       alert('подожди пока нарушители пройдут')
+//   }
+
+//   let color3=prompt('Если сфетофор желтый', 'да');
+//   let isRoadClear3=confirm('машины есть')
+//   if (color1 + isRoadClear3){
+//       alert('жди')
+//   }
+
+//   let color4=prompt('Если сфетофор желтый', 'да');
+//   let isRoadClear4=confirm('машин нет')
+//   if (color1 + isRoadClear4){
+//       alert('все равно жди')
+//   }
+
+//   let color5=prompt('Если сфетофор красный', 'да');
+//   let isRoadClear5=confirm('машин нет')
+//   if (color1 + isRoadClear5){
+//       alert('стой все равно')
+//   }
+
+//   let color6=prompt('Если сфетофор красный', 'да');
+//   let isRoadClear6=confirm('машины есть')
+//   if (color1 + isRoadClear6){
+//       alert('стой и жди')
+//   }
+
+//   let color7=confirm('Если светофор в аварийном режиме');
+//     if (color7){
+//       alert('делай что хочешь')
+//   }
+
+
+</script>
+
+
+
+</body>
+</html>
